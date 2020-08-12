@@ -1,0 +1,60 @@
+﻿<Window x:Class="chuni_oss.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:chuni_oss"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        WindowStyle="None" AllowsTransparency="True"
+        WindowState="Maximized"
+        ResizeMode="CanResizeWithGrip">
+    <Grid x:Name="outerGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <Grid x:Name="grid1" Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.05*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.05*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.05*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.05*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.05*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.05*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.05*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.05*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.05*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.05*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.05*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.05*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.05*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.05*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.05*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+        </Grid>
+        <Label Name="label1" Content="Label" VerticalAlignment="Center" HorizontalContentAlignment="Center"/>
+    </Grid>
+</Window>
